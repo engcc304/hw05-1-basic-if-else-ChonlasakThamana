@@ -11,3 +11,11 @@
     Output:
         Result: D C B A
 */
+#include <stdio.h>
+
+int main() {
+    char a1, a2, a3, a4;
+    scanf("%c %c %c %c", &a1, &a2, &a3, &a4);
+    printf("Result: %c %c %c %c", a4, a3, a2, a1);
+    return 0;
+}
