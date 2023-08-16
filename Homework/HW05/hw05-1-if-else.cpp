@@ -11,3 +11,15 @@
     Output:
         Result: D C B A
 */
+#include <stdio.h>
+
+int main() {
+    char chars[4];
+    
+    printf("กรอกค่า 4 ตัวอักขระ: ");
+    scanf("%c %c %c %c", &chars[0], &chars[1], &chars[2], &chars[3]);
+    
+    printf("ผลลัพธ์: %c %c %c %c\n", chars[3], chars[2], chars[1], chars[0]);
+    
+    return 0;
+}
