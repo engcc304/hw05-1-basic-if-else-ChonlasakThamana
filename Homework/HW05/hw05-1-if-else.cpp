@@ -14,12 +14,8 @@
 #include <stdio.h>
 
 int main() {
-    char chars[4];
-    
-    printf("enternumber: ");
-    scanf("%c %c %c %c", &chars[0], &chars[1], &chars[2], &chars[3]);
-    
-    printf("result: %c %c %c %c\n", chars[3], chars[2], chars[1], chars[0]);
-    
+    char a1, a2, a3, a4;
+    scanf("%c %c %c %c", &a1, &a2, &a3, &a4);
+    printf("Result: %c %c %c %c", a4, a3, a2, a1);
     return 0;
 }
